@@ -1,4 +1,21 @@
-name: Nick Beenham
-markdown: kramdown
+# Site information
+title: Nick's Blog
+email: nick.beenham@gmail.com
+description: Some random chap's ramblings.
+baseurl: ""
+url: "https://nickbeenham.dev"
 
-permalink: /blog/:year/:month/:day/:title
+# Site settings
+permalink: /:title/
+markdown: kramdown
+paginate: 5
+paginate_path: "/:num/"
+date_format: "%b %-d, %Y"
+
+google_analytics: UA-32386930-1
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
