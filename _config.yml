@@ -12,7 +12,7 @@ paginate: 5
 paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
 
-google_analytics: UA-32386930-1
+google_analytics: G-DB167LBMFC
 
 plugins:
   - jekyll-feed
